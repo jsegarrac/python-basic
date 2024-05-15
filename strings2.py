@@ -5,6 +5,7 @@ concatenacion = cadena1 + ", " + cadena2 + "!"
 print("Cadena concatenada:", concatenacion)
 
 # Formateo de cadenas utilizando f-strings:
+'''proporcionan una forma concisa y conveniente de incrustar expresiones dentro de literales de cadena. Puedes crear una f-string anteponiendo la letra 'f' o 'F' a la cadena y luego incluyendo expresiones dentro de llaves {}. Estas expresiones se evalúan en tiempo de ejecución y sus resultados se insertan en la cadena.'''
 nombre = "Juan"
 edad = 30
 saludo = f"Hola, me llamo {nombre} y tengo {edad} años."
@@ -34,3 +35,4 @@ print("¿Alfanumérico?", es_alnum)
 print("¿Alfabético?", es_alpha)
 print("¿Dígitos?", es_digit)
 
+# Escape char: \
