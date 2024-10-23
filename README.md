@@ -1,1 +1,1 @@
-Curso basico de python de cloudguru
+Curso python varias fuentes
