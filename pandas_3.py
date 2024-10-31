@@ -1,3 +1,5 @@
+# use of loc & iloc
+
 # let us import the Pandas Library
 import pandas as pd
 
@@ -12,11 +14,12 @@ df = pd.DataFrame(x)
 #display the result df
 print(df)
 
-#retrieve de "ID" column and assigning it to a variable y
-y = df[['ID']]
-print(y)
-print(type(y))
+# access the value on the first row and the firs column
+df.iloc[0,0]
 
-#retrieve de Department, Salary and ID columns and assigning it to a variable z
-z = df[['Department','Salary','ID']]
-print (z)
+# access the column using the name
+df.loc[0,'Salary']
+
+# copy a dataset
+
+df1 = df
