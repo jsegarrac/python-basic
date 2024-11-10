@@ -15,11 +15,15 @@ df = pd.DataFrame(x)
 print(df)
 
 # access the value on the first row and the firs column
-df.iloc[0,0]
+df1=df.iloc[0,0]
+
+print(df1)
 
 # access the column using the name
-df.loc[0,'Salary']
+df2=df.loc[0,'Salary']
+print(df2)
 
 # copy a dataset
 
-df1 = df
+df3 = df
+print(df3)
