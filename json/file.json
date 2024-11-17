@@ -1,0 +1,52 @@
+{
+    "tienda": {
+        "nombre": "La Casa del Café",
+        "ubicacion": "Madrid, España",
+        "contacto": {
+            "telefono": "+34 600 123 456",
+            "email": "contacto@lacasadelcafe.com"
+        },
+        "productos": [
+            {
+                "id": 1,
+                "nombre": "Café Espresso",
+                "categoria": "Bebidas",
+                "precio": 1.5,
+                "disponibilidad": true
+            },
+            {
+                "id": 2,
+                "nombre": "Capuchino",
+                "categoria": "Bebidas",
+                "precio": 2.0,
+                "disponibilidad": true
+            },
+            {
+                "id": 3,
+                "nombre": "Croissant",
+                "categoria": "Pastelería",
+                "precio": 1.2,
+                "disponibilidad": false
+            },
+            {
+                "id": 4,
+                "nombre": "Tarta de Queso",
+                "categoria": "Postres",
+                "precio": 3.0,
+                "disponibilidad": true
+            }
+        ],
+        "promociones": [
+            {
+                "nombre": "Descuento de Lunes",
+                "descripcion": "10% de descuento en todas las bebidas",
+                "valido_hasta": "2024-12-31"
+            },
+            {
+                "nombre": "2x1 en Pastelería",
+                "descripcion": "Compra un producto de pastelería y recibe otro gratis",
+                "valido_hasta": "2024-11-30"
+            }
+        ]
+    }
+}
