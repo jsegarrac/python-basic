@@ -15,7 +15,7 @@ html_content = response.text
 # Create a BeautifulSoup object to parse the HTML
 soup = BeautifulSoup(html_content, 'html.parser')
 
-# Display a snippet of the HTML content
+# Display a snippet (:500) of the HTML content
 print(html_content[:500])
 
 # Find all <a> tags (anchor tags) in the HTML
